@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.691" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-09-27T02:34:57" tests="0" file="cypress/e2e/features/tags.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login page with Tags" timestamp="2023-09-27T02:34:57" tests="3" time="2.643" failures="0">
+    <testcase name="Login page with Tags Success Login" time="1.083" classname="Success Login">
+    </testcase>
+    <testcase name="Login page with Tags Incorrect Password Login" time="0.770" classname="Incorrect Password Login">
+    </testcase>
+    <testcase name="Login page with Tags Blocked Login" time="0.801" classname="Blocked Login">
+    </testcase>
+  </testsuite>
+</testsuites>

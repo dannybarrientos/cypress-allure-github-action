@@ -1,0 +1,8 @@
+version: "3"
+services:
+  # this container will run Cypress test using built-in Electron browser
+  e2e:
+    image: "testing-chile:1.0"
+    command: "cypress:execution-tags"
+    volumes:
+      - ./cypress/reports:/testing-chile/cypress/reports
