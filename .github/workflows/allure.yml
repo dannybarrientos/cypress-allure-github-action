@@ -2,10 +2,7 @@ name: Allure Integration
   
 on: [push]
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+permissions: write-all
   
 jobs:
   cypress-run:
