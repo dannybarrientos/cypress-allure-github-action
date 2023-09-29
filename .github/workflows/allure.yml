@@ -35,11 +35,12 @@ jobs:
           gh_pages: allure
 
       - name: Get Allure history
-        uses: peaceiris/actions-allure-history@v2
+        uses: actions/checkout@v2
         if: always()
+        continue-on-error: true
         with:
-          allure_report_dir: allure-results
-          allure_history_dir: allure-history  
+            ref: allure
+            path: allure  
           
       - name: Deploy report to Github Pages
         if: always()
