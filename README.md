@@ -33,11 +33,12 @@ Install project dependencies with: npm i
 - [x] npx cypress run --spec cypress/e2e/features/* --env tags=@mobile
 
 2. Standard Execution with Docker
-  1.Create Image
+   
+  1. Create Image
 
 - [x] docker buildx build -t testing-chile:1.0 .
 
-  2.Command Execution
+  2. Command Execution
 
 - [x] docker run -i -t testing-chile:1.0 cypress run --spec cypress/e2e/features/* --env tags=@mobile
 
@@ -45,10 +46,3 @@ Install project dependencies with: npm i
 
 - [x] Docker Compose:
    1. docker compose run e2e
-
--ßTo build this image just use the following command line(just as an example, use your tag name:version as prefered.):
-#docker build -t testing-chile:1.0 .
-
--To run an example:
--TAG INSTANCE: docker run -v ./cypress/reports:/testing-chile/cypress/reports testing-chile:1.0 cypress run --spec "cypress/e2e/features/*.feature" --env tags=@mobile
--Volume config sample for Windows: -v "%cd%":/testing-chile
