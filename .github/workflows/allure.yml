@@ -2,7 +2,10 @@ name: Allure Integration
   
 on: [push]
 
-permissions: write-all
+permissions:
+  contents: write # We generate static HTML, JS, CSS so we need write access to the repo
+  pages: write
+  id-token: write
   
 jobs:
   cypress-run:
