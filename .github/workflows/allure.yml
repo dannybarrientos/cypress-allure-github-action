@@ -25,22 +25,21 @@ jobs:
       - name: Cypress run with Cucumber
         uses: cypress-io/github-action@v4.2.0 # use the explicit version number
         with:
-          command: npm run cypress:execution-allure
-          
-      - name: Get Allure history
-        uses: actions/checkout@v2
-        if: always()
-        continue-on-error: true
-        with:
-          ref: allure
-          path: allure
-          
+          command: npm run cypress:execution-allure          
+               
       - name: Generate Allure Report
         uses: simple-elf/allure-report-action@master
         if: always()
         with:
           allure_results: allure-results
           gh_pages: allure
+
+      - name: Get Allure history
+        uses: peaceiris/actions-allure-history@v2
+        if: always()
+        with:
+          allure_report_dir: allure-results
+          allure_history_dir: allure-history  
           
       - name: Deploy report to Github Pages
         if: always()
