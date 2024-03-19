@@ -47,4 +47,4 @@ Install project dependencies with: npm i
 - [x] Docker Compose:
    1. docker compose run e2e
      
-[Thanks teacher] (https://github.com/joanEsquivel)
+([Thanks teacher](https://www.udemy.com/user/joan-esquivel-montero/))
