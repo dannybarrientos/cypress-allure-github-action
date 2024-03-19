@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 19 22:35:36 GMT 2024","Tue Mar 19 22:35:37 GMT 2024","981","","Login page with Tags","","","","Blocked Login",""
+"passed","Tue Mar 19 22:35:28 GMT 2024","Tue Mar 19 22:35:29 GMT 2024","1036","","Login page","","","","Incorrect Username Login",""
+"passed","Tue Mar 19 22:35:25 GMT 2024","Tue Mar 19 22:35:26 GMT 2024","1865","","Login page","","","","Success Login",""
+"passed","Tue Mar 19 22:35:29 GMT 2024","Tue Mar 19 22:35:30 GMT 2024","1006","","Login page","","","","Incorrect Password Login",""
+"passed","Tue Mar 19 22:35:26 GMT 2024","Tue Mar 19 22:35:28 GMT 2024","1264","","Login page","","","","Blocked Login",""
+"passed","Tue Mar 19 22:35:33 GMT 2024","Tue Mar 19 22:35:35 GMT 2024","1427","","Login page with Tags","","","","Success Login",""
+"passed","Tue Mar 19 22:35:35 GMT 2024","Tue Mar 19 22:35:36 GMT 2024","1046","","Login page with Tags","","","","Incorrect Password Login",""
