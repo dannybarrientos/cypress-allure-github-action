@@ -5,7 +5,7 @@
     "formatter": "cucumber-json-formatter"
   },
   "messages": {
-    "enabled": false,
+    "enabled": true,
     "output": "jsonlogs/messages.ndjson"
   },
   "html": {
