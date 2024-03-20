@@ -12,6 +12,11 @@
     "enabled": true,
     "output": "./cypress/reports/index.html"
   },
+  "cypressHelper.cucumberTagsAutocomplete": {
+        "enable": true,
+        "allurePlugin": true,
+        "tags": ["mobile", "someOtherTag"]
+    },
   "stepDefinitions": [
     "[filepath]/**/*.{js,ts}",
     "[filepath].{js,ts}",
