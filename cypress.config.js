@@ -28,6 +28,7 @@ module.exports = defineConfig({
     chromeWebSecurity: false,
     env: {
       allureReuseAfterSpec: true,
+      allureSkipAutomaticScreenshots: true,
     },
   },
   reporter: 'junit',
