@@ -29,6 +29,7 @@ module.exports = defineConfig({
     env: {
       allureReuseAfterSpec: true,
       allureSkipAutomaticScreenshots: true,
+      allureSkipAutomaticScreenshots: true,
     },
   },
   reporter: 'junit',
